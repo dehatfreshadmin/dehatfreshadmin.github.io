@@ -30552,7 +30552,8 @@ _.c=c
 _.d=d
 _.e=e},
 apl:function apl(a){this.a=a},
-apm:function apm(a){this.a=a},
+apm:function apm(a,b){this.a=a
+this.b=b},
 api:function api(){},
 apj:function apj(a){this.a=a},
 apk:function apk(a){this.a=a},
@@ -109463,19 +109464,19 @@ A.apu.prototype={
 $0(){return B.e7},
 $S:739}
 A.apt.prototype={
-$2(a5,a6){var s,r,q,p,o,n,m,l=this,k=null,j=A.W(a5),i=A.U(k,25,k),h=l.a.e,g=A.U(k,25,k),f=A.b9G(),e=A.U(k,15,k),d=l.b,c=l.c,b=A.A0("assets/admin/column-chart.svg",c.j(0,B.e7),"Overview",new A.apl(d),h,k),a=A.U(k,10,k),a0=A.ar7(k,k,k,k,k,k,k,k,k,c.j(0,B.hn)?A.W(a5).ok.f:B.R,B.ah,k,k,k,k,k,k,k,k,!0,k),a1=A.A0("assets/admin/shopping-bag.svg",c.j(0,B.hn),"Product",k,h,k),a2=A.aM(k,new A.br(new A.apm(d),k),B.l,A.W(a5).y1.b,k,k,k,125,k,k,B.LR,k,k,k),a3=A.U(k,10,k),a4=c.j(0,B.jD)||c.j(0,B.qt)
-a4=A.A0("assets/admin/customer.svg",a4,"Customers",new A.apn(d),h,k)
-s=A.U(k,10,k)
-r=c.j(0,B.jE)||c.j(0,B.qz)
-r=A.A0("assets/admin/order.svg",r,"Orders",new A.apo(d),h,A.aM(k,new A.br(new A.app(l.d),k),B.l,k,k,B.DG,k,25,k,k,k,k,k,35))
-q=A.U(k,10,k)
-p=A.A0("assets/admin/shopping-cart.svg",c.j(0,B.qA),"Resolution center",new A.apq(d),h,k)
-o=A.U(k,10,k)
-d=A.A0("assets/admin/setting.svg",c.j(0,B.qB),"Settings",new A.apr(d),h,k)
-c=A.U(k,10,k)
-n=A.b9G()
-m=A.U(k,25,k)
-return A.aM(k,A.hN(A.bh(A.b([i,new A.Ww(h,k),g,f,e,b,a,new A.WW(a1,B.aD,a2,a0,k),a3,a4,s,r,q,p,o,d,c,n,m,new A.Tn(h,k),A.U(k,25,k),A.A0("assets/admin/enter.svg",!1,"Log out",new A.aps(l.e),h,k)],t.p),B.p,B.m,B.j),k,k,k,B.T),B.l,j.y1.b,k,k,k,a6.d,k,k,k,k,k,a6.b)},
+$2(a5,a6){var s,r,q,p,o,n,m=this,l=null,k=A.W(a5),j=A.U(l,25,l),i=m.a.e,h=A.U(l,25,l),g=A.b9G(),f=A.U(l,15,l),e=m.b,d=m.c,c=A.A0("assets/admin/column-chart.svg",d.j(0,B.e7),"Overview",new A.apl(e),i,l),b=A.U(l,10,l),a=A.ar7(l,l,l,l,l,l,l,l,l,d.j(0,B.hn)?A.W(a5).ok.f:B.R,B.ah,l,l,l,l,l,l,l,l,!0,l),a0=A.A0("assets/admin/shopping-bag.svg",d.j(0,B.hn),"Product",l,i,l),a1=m.d,a2=A.aM(l,new A.br(new A.apm(e,a1),l),B.l,A.W(a5).y1.b,l,l,l,125,l,l,B.LR,l,l,l),a3=A.U(l,10,l),a4=d.j(0,B.jD)||d.j(0,B.qt)
+a4=A.A0("assets/admin/customer.svg",a4,"Customers",new A.apn(e),i,l)
+s=A.U(l,10,l)
+r=d.j(0,B.jE)||d.j(0,B.qz)
+a1=A.A0("assets/admin/order.svg",r,"Orders",new A.apo(e),i,A.aM(l,new A.br(new A.app(a1),l),B.l,l,l,B.DG,l,25,l,l,l,l,l,35))
+r=A.U(l,10,l)
+q=A.A0("assets/admin/shopping-cart.svg",d.j(0,B.qA),"Resolution center",new A.apq(e),i,l)
+p=A.U(l,10,l)
+e=A.A0("assets/admin/setting.svg",d.j(0,B.qB),"Settings",new A.apr(e),i,l)
+d=A.U(l,10,l)
+o=A.b9G()
+n=A.U(l,25,l)
+return A.aM(l,A.hN(A.bh(A.b([j,new A.Ww(i,l),h,g,f,c,b,new A.WW(a0,B.aD,a2,a,l),a3,a4,s,a1,r,q,p,e,d,o,n,new A.Tn(i,l),A.U(l,25,l),A.A0("assets/admin/enter.svg",!1,"Log out",new A.aps(m.e),i,l)],t.p),B.p,B.m,B.j),l,l,l,B.T),B.l,k.y1.b,l,l,l,a6.d,l,l,l,l,l,a6.b)},
 $S:123}
 A.apl.prototype={
 $0(){var s=new A.e6(B.e7,t.C)
@@ -109483,18 +109484,23 @@ this.a.CW.sk(0,s)
 return s},
 $S:0}
 A.apm.prototype={
-$0(){var s,r,q=this.a,p=q.cy
-p=p.gk(p)
-p.toString
-s=q.cx
+$0(){var s,r,q,p,o=this.a,n=o.cy
+n=n.gk(n)
+n.toString
+s=o.cx
 r=s.gk(s).dC(new A.api())
-if(r.j(0,new A.u4()))s=!0
-else if(p.j(0,new A.u4()))s=r.j(0,new A.u8())||r.j(0,new A.u1())||r.j(0,new A.u3())
-else s=!1
-if(r.j(0,new A.u7()))p=!0
-else if(p.j(0,new A.u7()))p=r.j(0,new A.u8())||r.j(0,new A.u1())||r.j(0,new A.u3())
+s=this.b
+q=s.cy
+q=A.e(q.gk(q))
+if(r.j(0,new A.u4()))p=!0
+else if(n.j(0,new A.u4()))p=r.j(0,new A.u8())||r.j(0,new A.u1())||r.j(0,new A.u3())
 else p=!1
-return A.bh(A.b([B.iZ,new A.Md("Fruits",s,new A.apj(q),null),new A.Md("Vegetables",p,new A.apk(q),null)],t.p),B.p,B.m,B.j)},
+s=s.cx
+s=A.e(s.gk(s))
+if(r.j(0,new A.u7()))n=!0
+else if(n.j(0,new A.u7()))n=r.j(0,new A.u8())||r.j(0,new A.u1())||r.j(0,new A.u3())
+else n=!1
+return A.bh(A.b([B.iZ,new A.Md("Fruits ("+q+")",p,new A.apj(o),null),new A.Md("Vegetables ("+s+")",n,new A.apk(o),null)],t.p),B.p,B.m,B.j)},
 $S:263}
 A.api.prototype={
 $0(){return B.hm},
